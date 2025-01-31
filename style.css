@@ -4,60 +4,110 @@
     padding: 0;
 }
 
-
-
-
-
 .container_shoes{
-    width: 100%;
+
+    border: solid black 1px;
+    margin: 10px;
+    margin-top: 30px;
+    height: 50rem;
+    width: 118rem;
     display: flex;
-
 }
 
-.shoes_1{
-    width: 50%;
-    height: 30rem;
-    border: solid;
-
+.shoes_homepage{
+    margin-top: 50px;
+    border: solid red;
+    height: 45rem;
+    width: 62rem;
 }
-
-.img1 img{
-
-    width: 100%;
-}
-.img2 img{
-    width: 100%;
-}
-
 
 .image_1{
+    border: solid 3px rgb(133, 3, 3);
     width: 100%;
-    height: 100%;
-    padding: 5px;
+    height: 80%;
+    display: block;
+    padding: 15px;
 
 }
 
-.img1{
+.image_1 img{
     width: 100%;
-    height: 80%;
-    background-color: rgb(50, 47, 206);
-    padding: 20px;
-    border-radius: 10px;
-    border-image: 20px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.text{
+    padding: 50px;
+    border: solid rgb(10, 141, 130);
+    height: 68rem;
+    width: 60rem;
+}
+
+.texte{
+    padding: 30px;
+}
+.presentation h5{
+    font-size: 2em;
+    color: orangered;
+}
+
+.presentation h1{
+
+    color: rgb(0, 0, 0);
+    font-size: 5em;
+}
+
+.presentation p{
+    font-size: larger;
+}
+
+.presentation h2{
+    font-size: 2em;
+}
+.presentation h2 p{
+    width: 37px;
+    background-color: rgb(231, 121, 18);
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.panier{
+    font-size: 1rem;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 5em;
+}
+
+.pan+ p{
+    border: solid red;
+    color: orange;
+}
+.panier li{
+    text-decoration: none;
+}
+
+.icones{
+    border: solid rgb(140, 75, 165) 1px;
+    margin: 10px;
+    height: 20rem;
+    width: 60rem;
+}
+
+.icone_shoes{
+    border: solid;
+    height: 18rem;
+    margin: 20px;
 }
 
 .icone{
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: space-between;
+    border: solid 1px orange;
+    margin: 15px;
+    height: 15rem;
 }
 
-.vigilance{
-    width: 77px;
-    height: 100%;
-    background-color: black;
-    
-
-}
 
